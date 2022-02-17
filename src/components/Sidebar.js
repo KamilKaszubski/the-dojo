@@ -6,7 +6,7 @@ import { useAuthContext } from '../hooks/useAuthContext';
 import './Sidebar.css';
 import DashboardIcons from '../assets/dashboard_icon.svg';
 import AddIcon from '../assets/add_icon.svg';
-import userEvent from '@testing-library/user-event';
+// import userEvent from '@testing-library/user-event';
 
 const Sidebar = () => {
   const { user } = useAuthContext();
